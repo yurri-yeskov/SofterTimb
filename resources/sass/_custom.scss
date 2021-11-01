@@ -1,0 +1,30 @@
+body {
+    font-size: 0.85rem !important;
+}
+
+.nav-icon {
+    font-size: 0.9rem !important;
+}
+
+.nav-sidebar {
+    .nav {
+        &.nav-treeview {
+            padding-left: 10px;
+            font-size: 0.8rem;
+
+            .nav-icon {
+                font-size: 0.8rem !important;
+            }
+        }
+    }
+}
+
+.form-group {
+    .row {
+        align-items: center;
+    }
+}
+
+.mandatory {
+    color: red !important;
+}
